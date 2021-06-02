@@ -15,6 +15,7 @@
 		9971DAC32660039A0008186E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9971DAC22660039A0008186E /* main.m */; };
 		9971DACD2660039B0008186E /* TestObjectiveCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9971DACC2660039B0008186E /* TestObjectiveCTests.m */; };
 		9971DAD82660039B0008186E /* TestObjectiveCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9971DAD72660039B0008186E /* TestObjectiveCUITests.m */; };
+		9971DAE92667CBB70008186E /* TweetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9971DAE82667CBB70008186E /* TweetCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		9971DAD32660039B0008186E /* TestObjectiveCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestObjectiveCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9971DAD72660039B0008186E /* TestObjectiveCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestObjectiveCUITests.m; sourceTree = "<group>"; };
 		9971DAD92660039B0008186E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9971DAE72667CBB70008186E /* TweetCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TweetCell.h; sourceTree = "<group>"; };
+		9971DAE82667CBB70008186E /* TweetCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TweetCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 				9971DABE2660039A0008186E /* LaunchScreen.storyboard */,
 				9971DAC12660039A0008186E /* Info.plist */,
 				9971DAC22660039A0008186E /* main.m */,
+				9971DAE72667CBB70008186E /* TweetCell.h */,
+				9971DAE82667CBB70008186E /* TweetCell.m */,
 			);
 			path = TestObjectiveC;
 			sourceTree = "<group>";
@@ -265,6 +270,7 @@
 				9971DAB8266003920008186E /* ViewController.m in Sources */,
 				9971DAB2266003920008186E /* AppDelegate.m in Sources */,
 				9971DAC32660039A0008186E /* main.m in Sources */,
+				9971DAE92667CBB70008186E /* TweetCell.m in Sources */,
 				9971DAB5266003920008186E /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
